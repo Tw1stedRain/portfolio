@@ -9,6 +9,7 @@
 		<title>Nicole Kalbfleisch</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="assets/css/base.css" />
 		<link rel="stylesheet" href="assets/css/layout.css" />
 		<link rel="stylesheet" href="assets/css/modules.css" />
@@ -21,57 +22,60 @@
 
 				<div class="top">
 
+					
 					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/me.jpeg" alt="" /></span>
-							<h1 id="title">Nicole</h1>
-							<p>Program Developer</p>
-						</div>
-
+					<div id="logo">
+						<span class="image avatar48"><img src="images/me.jpeg" alt="" /></span>
+						<h1 id="title">Nicole</h1>
+						<p>Program Developer</p>
+					</div>
+					
 					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.facebook.com/nicole.kalbfleisch.5" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="https://github.com/Tw1stedRain" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					<nav id="nav">
+						<ul>
+							<li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
+							<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
+							<li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
+							<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
 						</ul>
-
+					</nav>
+					
 				</div>
-
+				
+				<div class="bottom">
+					
+					<!-- Social Icons -->
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/nicole.kalbfleisch.5" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/Tw1stedRain" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					
+				</div>
+				
 			</div>
-
-		<!-- Main -->
+			
+			<!-- Main -->
 			<div id="main">
-
+				
 				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-
+				<section id="top" class="one dark cover">
+					<div class="container" id="ugh">
+						<video loop muted autoplay poster="img/videoframe.jpg" class="video">
+							<source src="/images/Code_flythough_loop_01_Videvo.mp4" type="video/mp4">
+						</video>
+				
+						<div class="content">
 							<header>
-								<h2 class="alt">Hi! I'm Nicole<strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
+								<h2 class="alt">Hi! I'm Nicole.</h2>
 								<p>I am a computer programmer in training. I am excited to show the world what I can do with code!</p>
 							</header>
-
-							<footer>
+							<!-- <footer>
 								<a href="#portfolio" class="button scrolly">Portfolio</a>
-							</footer>
-
+							</footer> -->
 						</div>
-					</section>
+					</div>
+				</section>
 
 				<!-- Portfolio -->
 					<section id="portfolio" class="two">
@@ -188,11 +192,16 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+			<!-- <script src="assets/js/jquery.scrolly.min.js"></script> -->
+			<script src="https://cdn.jsdelivr.net/npm/jquery.scrolly@0.0.1/jquery.scrolly.js"></script>
+			<!-- <script src="assets/js/jquery.scrollex.min.js"></script> -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollex/0.2.1/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
+			<!-- i looked but couldnt find a functioning breakpoints -->
+
+			
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 

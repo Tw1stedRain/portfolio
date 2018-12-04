@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 
@@ -27,6 +27,20 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+/* .video{
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 80%; 
+		min-height: 100%;
+}
+
+.content{
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+} */
 
 	html {
 		box-sizing: border-box;
@@ -99,6 +113,7 @@ body {
 	header {
 		margin: 0 0 2em 0;
 	}
+
 
 		header > p {
 			margin: 1em 0 0 0;
