@@ -309,4 +309,47 @@ button,
 				font-size: 1em;
 			}
 
-  
+      body *{
+        z-index: 2;
+    }
+    *{
+        z-index: 2;
+    }
+    #header{
+        z-index: 3;
+    }
+
+    video {
+      overflow: hidden;
+      position: inherit;
+      z-index: 2;
+      min-width: 80%;
+      min-height: 100%;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      -webkit-filter: opacity(100%);
+      filter: opacity(35%);     
+     }
+
+     .content{ 
+      background: rgba(0, 0, 0, 0.5);
+      color: #bac2be;
+      width: 100%;
+      padding: 20px;
+      margin-top: -1000px; 
+    } 
+
+    #ugh{
+      margin: 0;
+      height: 540px;
+      z-index: 5;
+    }
+
+    .content > button{
+      z-index: 10;
+      position: fixed;
+    }
+
+      
